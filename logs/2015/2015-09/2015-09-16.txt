@@ -1,12 +1,74 @@
-================== 12:51
+================== add tasks
 [ ] Find headers for cvlancli.dll
 [ ] sync network json for cvlancli readers
-[ ]
-[ ]
-[ ]
+[ ] take down any msdn virtual box guests (chawindows2008r2)
 
-==================
-==================
+================== 12:51
+
+================== 14:29
+[x] i3,notify-send,dunst ?
+
+dunst CONFIGURATION - An example configuration file is included (usually
+/usr/share/doc/dunst/dunstrc.example.gz).  To change the configuration,
+copy this file to ~/.config/dunst/dunstrc and edit it accordingly.
+
+sleep 1500 && notify-send "break"
+
+sleep 300 && notify-send "back to work"  # a short, 5-minute break
+sleep 900 && notify-send "back to work"  # a long, 15-minute break
+
+sleep 900 && notify-send "pomodoro" "================ break time ================\n.\n.\n."
+
+[ ] find new ajax distribution project
+git@gitlab.gcsww.local:call-progress-event-distribution/cpe_ajax.git
+
+01ylr - 10.10.22.11 	01ylr.gcsww.local Windows 7 vm guest reading events from mapd nodes 
+04mv4 - 10.10.22.8 	04mv4.gcsww.local hosting jrapp.gcsww.local on debian x64 
+chadeb01 - 10.10.22.2  debian  personal for craig
+d4pd4 - 10.10.22.12 	d4pd4.gcsww.local Ubuntu Server 14.04.2 LTS - call event distribution 
+y4ldr - 10.10.22.9 	y4ldr.gcsww.local Test bed for Ubuntu 14.04,dokku-alt,jruby rails 
+
+10.10.22.10 	mapdreader.gcsww.local Windows XP vm guest reading events from mapd nodes 
+
+================== 4:18 pm
+[ ] gcs dns mapdreader to 01ylr; replacing mapdreader 10.10.22.10
+
+Windows dns shows
+Type - Host (A)
+Type - Alias (CNAME)
+
+https://en.wikipedia.org/wiki/CNAME_record
+NAME                    TYPE   VALUE
+--------------------------------------------------
+bar.example.com.        CNAME  foo.example.com.
+foo.example.com.        A      192.0.2.23
+
+when an A record lookup for bar.example.com is done, the resolver will
+see a CNAME record and restart the checking at foo.example.com and will
+then return 192.0.2.23.
+
+bar.example.com.        CNAME  foo.example.com.
+may be read as:
+bar.example.com is an alias for the canonical name (CNAME) foo.example.com. 
+A client will request bar.example.com and the answer will be foo.example.com.
+
+
+[ ] Notes on virtualbox guests
+"chadeb01" {fc587445-f925-46e7-a2f7-35c50598c2b8}
+"chawindows2008r2" {535ba7af-0d5d-4007-bad6-7ec37b7d1c3d}
+"debxtest" {e6d55e7a-4d07-4707-a8e7-32942e674679}
+"chapg" {98d06bc6-17b3-4187-94e3-65b15e461a18}
+"Gitlab" {6d6d0634-6979-4b52-851d-cc44f08cbe99}
+"FOG" {c8fd1830-2165-4246-8219-35d06b15dbc3}
+"FOG2" {6253cbd8-acc6-44cf-adfe-bd1a67b8e4d4}
+"FOG3" {85087f6e-92f7-470a-8e29-c972428ea13c}
+"FTB-Minecraft" {d834ef9e-1cc0-4521-ad59-8cf567366758}
+"04mv4" {01ca9d55-311b-4aa9-a002-da9e4c1ec40f}
+"y4ldr Ubuntu 14.04.2" {8d869e23-9638-41c8-95f6-309bef53223f}
+"mapdreader" {1ca678e2-f99e-44c2-ba4d-6ba42bbea00a}
+"01ylr" {2468a018-c49e-43c7-bd8a-220752e40b13}
+"d4pd4" {81ea2587-847b-4f69-9b4f-fe5922b40c06}
+
 ==================
 ==================
 ==================
