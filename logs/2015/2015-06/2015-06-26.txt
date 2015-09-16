@@ -1,0 +1,57 @@
+=============
+[x] 9:17
+debug pptp ppp pon poff
+
+ppp						install
+pptp-linux					install
+
+https://packages.debian.org/wheezy/pptp-linux
+Client for the proprietary Microsoft Point-to-Point Tunneling Protocol,
+PPTP. Allows connection to a PPTP based VPN as used by employers and
+some cable and ADSL service providers.
+
+http://pptpclient.sourceforge.net/howto-diagnosis.phtml
+
+http://askubuntu.com/questions/294120/how-to-debug-and-fix-pptp-vpn-client-connection
+
+[x] 9:52
+https://johnhowto.wordpress.com/2014/08/21/pptp-client-ubuntu-howto/
+
+[x] 10:23
+apt-get update / upgrade
+
+[x] 10:53
+edit /etc/ppp/options.pptp. pptp vpn working
+
+[ ] 11:50
+put mapd VS solution into git
+C:\Users\craig\Documents\Visual Studio 2012\Projects\mapd
+
+boost program_options
+
+[x] 12:20
+put mapd VS solution into git
+
+[x] 12:53
+sample ini file for program options
+
+[x] 1:24 pm
+
+[x] 3:36
+nuget package manager
+installshield le
+
+[x] 4:07
+cvlan dll
+cvlan_lib (gem) into gitlab cvlan-lib-gem
+/media/gcs3f/GIT/cvlan_call_server.git
+cvlan_call_server/cvlan_lib/
+cvlan_call_server/cvlan_lib/lib/cvlan_lib/cvlancli.dll
+
+[x] 4:41 pm
+cvlan_lib (gem) into gitlab cvlan-lib-gem
+
+[x] 5:12 pm
+git commit -m 'cvlan-lib-gem v0.1.0 Ruby code to build gem cvan_lib. A Ruby ffi wrapper for cvlancli.dll'
+mapd-read-and-publish.msi built
+
