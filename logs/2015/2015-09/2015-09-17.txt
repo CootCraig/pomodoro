@@ -1,6 +1,4 @@
 ================== 12:26
-[ ] gcsww dns
-
 Alias (CNAME)
 Host (A)
 
@@ -19,11 +17,43 @@ Alias (CNAME) callevents.gcsww.local -> d4pd4.gcsww.local
 Host (A) d4pd4.gcsww.local -> 10.10.22.12
 added on gcs1 dns
 
-==================
-==================
-==================
-==================
-==================
+[x] gcsww dns
+
+================== 14:10
+
+[x] find new ajax distribution project
+git@gitlab.gcsww.local:call-progress-event-distribution/cpe_ajax.git
+
+virtualbox guest system
+Alias (CNAME) callevents.gcsww.local -> d4pd4.gcsww.local
+Host (A) d4pd4.gcsww.local -> 10.10.22.12
+
+================== 14:40
+[ ] vs-mapd add config with list of vdns
+
+================== 15:11
+[ ] vs-mapd add config with list of vdns
+
+================== 15:41
+[x] vs-mapd add config with list of vdns
+    testing with py14-cvlan-app.py
+
+[ ] pick short list of vdns to test with
+
+================== 16:17
+[x] Note what call event json server is running
+gcs1 - task - cvlan_ajax_events - C:\GCS\apps\cpe_ajax\run.bat
+
+base::App INFO 2015-09-17 01:10:58 :: Log4r configured from file C:/GCS/apps/cpe_ajax/app.yml
+base::App INFO 2015-09-17 01:10:58 ::
+========= Startup version 0.1.9 =========
+
+git branch master
+commit fc4fcbd9
+date Thu Sep 11 15:04:24 2014 -0600
+
+[ ] pick short list of vdns to test with
+
 ==================
 ==================
 ==================
