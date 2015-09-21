@@ -12,14 +12,61 @@ git branch master
 commit fc4fcbd9
 date Thu Sep 11 15:04:24 2014 -0600
 
-[ ] pick short list of vdns to test with
+[x] pick short list of vdns to test with
 
-==================
+================== 14:36
 
-==================
-==================
-==================
-==================
+base::EventReader DEBUG 2015-09-21 14:08:02 :: EventReader#handle_message @vdn_counts [
+
+"8909", 
+"1518", 
+"3196", 
+"8392", 
+"8205", 
+"0734", 
+"0732", 
+"1407", 
+"0735", 
+"0363",
+
+================== 15:06
+[ ] vs-mapd on above list of vdns
+
+cvlancli\dll\dll.py line 77 setting cvi.domain_ext fails
+
+================== 15:37
+[ ] vs-mapd on above list of vdns
+
+cvlancli\dll\structs.py
+cvlancli\dll\dll.py
+
+Cv_Info.domain_ext from c_uint32 to c_void_p
+
+cvlancli\dll\structs.py cvlancli\dll\dll.py Cv_Info.domain_ext from c_uint32 to c_void_p
+
+================== 16:17
+[x] vs-mapd on above list of vdns
+
+vs-mapd/home/craig/pytests/py14-cvlan-app.py
+
+vs-mapd branch develop
+
+commit 1ac7b323546c625ea3b9868254234359e234ee9d
+Author: Craig Anderson <craig@coot.net>
+Date:   Mon Sep 21 15:57:14 2015 -0600
+    cvlancli\dll\structs.py cvlancli\dll\dll.py Cv_Info.domain_ext from c_uint32 to c_void_p
+
+What next?
+postgresql logging?
+
+[ ] py14-cvlan-app.py - increase read time precision
+vs-mapd/home/craig/pytests/py14-cvlan-app.py
+
+================== 16:46
+
+[ ] py14-cvlan-app.py - increase read time precision
+vs-mapd/home/craig/pytests/py14-cvlan-app.py
+
 ==================
 ==================
 ==================
