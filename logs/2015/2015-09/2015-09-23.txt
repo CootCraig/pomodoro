@@ -26,7 +26,14 @@ vs-mapd/home/craig/pytests/py14-cvlan-app.py
 git clone /media/gcs3f/GIT/cvlan_logger_2.git
 
 
-==================
+================== 14:30
+[x] database for logging call events
+postgresql on callevents.gcsww.local
+database name: callevents
+database user: callevents
+
+[x] pgadmin3 connect
+
 ==================
 ==================
 ==================
