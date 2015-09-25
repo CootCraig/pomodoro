@@ -49,10 +49,18 @@ git clone git@gitlab.gcsww.local:call-progress-event-distribution/cvlan_logger_2
 ================== 13:05
 [ ] sequel migration for postgresql event logging
 
-==================
-==================
-==================
-==================
+================== 14:44
+[ ] sequel migration for postgresql event logging
+
+================== 15:14
+[x] sequel migration for postgresql event logging
+
+================== 15:44
+[ ] implement yaml config and file logging for dblogger
+
+================== 16:15
+[x] implement yaml config and file logging for dblogger
+
 ==================
 ==================
 ==================
